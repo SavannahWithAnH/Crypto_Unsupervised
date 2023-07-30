@@ -1,2 +1,8 @@
 # Crypto_Unsupervised
-Analysis of cryptocurrency data using unsupervised machine learning.
+
+
+
+
+
+
+I attended office hours where an instructor assisted with this code.
