@@ -4,7 +4,6 @@
 The following steps were taken to produce this deliverable.
 
 - Prepare the Data
-  
     #Use the `StandardScaler()` module from scikit-learn to normalize the data from the CSV file
     stscaled_data = StandardScaler().fit_transform(market_data_df)
     stscaled_data
