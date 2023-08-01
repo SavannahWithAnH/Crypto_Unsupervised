@@ -100,5 +100,4 @@ I attended office hours where an instructor assisted with this project.
 Please refer to the following:  
 [My LinkedIn Page](https://www.linkedin.com/in/savannah-porter-7a2627267/)  
 [My Email Contact](savannahnporter@gmail.com)  
-<br>
-[buy this analyst some much needed coffee](https://www.venmo.com/SavannahP519)
+
