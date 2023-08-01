@@ -1,11 +1,28 @@
 # Crypto_Unsupervised
+### (Analyzing cryptocurrencies using unsupervised machine learning-Python)
+
+The following steps were taken to produce this deliverable.
+
+- Prepare the Data
+  
+    #Use the `StandardScaler()` module from scikit-learn to normalize the data from the CSV file
+    stscaled_data = StandardScaler().fit_transform(market_data_df)
+    stscaled_data
+
+- Find the Best Value for k Using the Original Scaled DataFrame
+- Cluster Cryptocurrencies with K-means Using the Original Scaled Data
+- Optimize Clusters with Principal Component Analysis
+- Find the Best Value for k Using the PCA Data
+- Cluster Cryptocurrencies with K-means Using the PCA Data
 
 
 
 
 
+buy me coffee link.
 
-I attended office hours where an instructor assisted with this code.
+
+I attended office hours where an instructor assisted with this project.
 
 
 <br>
