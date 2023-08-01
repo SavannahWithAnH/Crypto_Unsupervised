@@ -39,6 +39,15 @@ crypto_clusters
 ~~~
 
 - Optimize Clusters with Principal Component Analysis
+~~~
+# Use the PCA model with `fit_transform` to reduce to 
+# three principal components.
+crypto_pca = pca.fit_transform(predict_df)
+
+# View the first few rows of the DataFrame. 
+crypto_pca[:6]
+~~~
+
 - Find the Best Value for k Using the PCA Data
 - Cluster Cryptocurrencies with K-means Using the PCA Data
 
