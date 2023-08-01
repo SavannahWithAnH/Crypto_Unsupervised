@@ -11,6 +11,18 @@ The following steps were taken to produce this deliverable.
 ~~~
      
 - Find the Best Value for k Using the Original Scaled DataFrame
+~~~
+# Plot a line chart with all the inertia values computed with 
+# the different values of k to visually identify the optimal value for k.
+elbow_plot = elbow_data_df.hvplot.line(
+    x='k',
+    y='inertia',
+    title="Crypto Elbow",
+    xticks=k
+)
+elbow_plot
+~~~
+
 - Cluster Cryptocurrencies with K-means Using the Original Scaled Data
 - Optimize Clusters with Principal Component Analysis
 - Find the Best Value for k Using the PCA Data
