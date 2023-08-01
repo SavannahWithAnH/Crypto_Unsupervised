@@ -24,6 +24,20 @@ elbow_plot
 ~~~
 
 - Cluster Cryptocurrencies with K-means Using the Original Scaled Data
+~~~
+# Initialize the K-Means model using the best value for k
+model = KMeans(n_clusters =4)
+
+# Fit the K-Means model using the scaled data
+model.fit(stscaled_data_df)
+
+# Predict the clusters to group the cryptocurrencies using the scaled data
+crypto_clusters = model.predict(stscaled_data_df)
+
+# Print the resulting array of cluster values.
+crypto_clusters
+~~~
+
 - Optimize Clusters with Principal Component Analysis
 - Find the Best Value for k Using the PCA Data
 - Cluster Cryptocurrencies with K-means Using the PCA Data
